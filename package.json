@@ -12,6 +12,10 @@
   "license": "ISC",
   "dependencies": {
     "koa": "^2.13.4",
-    "lodash": "^4.17.21"
+    "koa-logger": "^3.2.1",
+    "koa2-cors": "^2.0.6",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "puppeteer": "^13.0.0"
   }
 }
