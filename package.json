@@ -13,6 +13,7 @@
   "dependencies": {
     "koa": "^2.13.4",
     "koa-logger": "^3.2.1",
+    "koa-router": "^10.1.1",
     "koa2-cors": "^2.0.6",
     "lodash": "^4.17.21",
     "moment": "^2.29.1",
