@@ -1,4 +1,4 @@
-import { createRouter } from "../../lib/router/index.js";
+import { createRouter } from "../../../lib/router/index.js";
 
 const router = createRouter('/test');
 

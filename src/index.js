@@ -1,4 +1,4 @@
-import { MyKoa } from './lib/index.js';
+import { MyKoa } from '../lib/index.js';
 import routers from './controller/index.js';
 
 new MyKoa({
