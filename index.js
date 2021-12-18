@@ -1,4 +1,4 @@
-import MyKoa from './lib/MyKoa.js';
+import { MyKoa } from './lib/index.js';
 
 const app = new MyKoa({});
 
