@@ -1,15 +1,15 @@
 {
   "name": "@licoded/my-koa-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "A tool library based on koa and puppeteer, which can speed up your development.",
   "type": "module",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "dev": "node src/index.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "licoded",
+  "license": "MIT",
   "dependencies": {
     "koa": "^2.13.4",
     "koa-logger": "^3.2.1",
@@ -17,5 +17,17 @@
     "koa2-cors": "^2.0.6",
     "lodash": "^4.17.21",
     "puppeteer": "^13.0.0"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/licoded/koa-puppeteer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/licoded/koa-puppeteer/issues"
+  },
+  "homepage": "https://github.com/licoded/koa-puppeteer#readme"
 }
