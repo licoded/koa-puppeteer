@@ -1,5 +1,5 @@
 {
-  "name": "@licoded/my-koa-cli",
+  "name": "@licoded/koa-puppeteer",
   "version": "1.0.0",
   "description": "A tool library based on koa and puppeteer, which can speed up your development.",
   "type": "module",
