@@ -23,8 +23,8 @@ You can choose to use CommonJS syntax or ES Module syntax. Note that the default
 #### CommonJS 
 
 ```js
-import { MyKoa } from '@licoded/koa-puppeteer';
-import { createRouter } from '@licoded/koa-puppeteer/lib/router';
+const { MyKoa } = require('@licoded/koa-puppeteer');
+const { createRouter } = require('@licoded/koa-puppeteer/lib/router');
 ```
 
 #### ES Module
