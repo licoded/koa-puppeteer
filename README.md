@@ -16,18 +16,27 @@ PUPPETEER_DOWNLOAD_HOST=https://storage.googleapis.com.cnpmjs.org npm install --
 > `PUPPETEER_DOWNLOAD_HOST=https://storage.googleapis.com.cnpmjs.org` prefix is to speed up Chromium download in **China**.  
 > If you are not in China, you may need to remove the prefix
 
-### Code Example
+### Choose syntax to import
 
-For some reasons, I use ES Module to write this tool. So you now can only use ES Module Synatx now.
+You can choose to use CommonJS syntax or ES Module syntax. Note that the default syntax of npm/nodejs project is CommonJS, if you want to use ES Module syntax, you need to add configuration `"type": "module"` in package.json. And when using ES Module syntax, the import path must be written in full.
 
-> I plan to rewrite using CommonJs syntax to support both commonjs and es syntax.
+#### CommonJS 
 
-Write following example script in `src/index.js`, and then use `node src/index.js` command to start the server.
+```js
+import { MyKoa } from '@licoded/koa-puppeteer';
+import { createRouter } from '@licoded/koa-puppeteer/lib/router';
+```
+
+#### ES Module
 
 ```js
 import { MyKoa } from '@licoded/koa-puppeteer';
 import { createRouter } from '@licoded/koa-puppeteer/lib/router/index.js';
+```
 
+### Code Example
+
+```js
 const testRouter = createRouter('/test');
 
 testRouter.get('/test', (ctx) => {

@@ -2,6 +2,8 @@
 
 ## new MyKoa(options)
 
+> Import Path: `@licoded/koa-puppeteer/lib/index.js`
+
 - `options` <[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)>
   * `port` <?[number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#number_type)> The port number the server is listening on. Defaults to `3000`.
   * `debug` <?[boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#boolean_type)> Whether to display the browser graphical interface. Defaults to `false`, which means this browser run in the background.
@@ -13,6 +15,8 @@
 - returns: <[MyKoa](https://github.com/licoded/koa-puppeteer/blob/master/lib/MyKoa.js)>
 
 ## Router
+
+> Import Path: `@licoded/koa-puppeteer/lib/router/index.js`
 
 ### createRouter(prefix)
 
@@ -34,6 +38,8 @@
 > Register `routers` on `app`.
 
 ## Some tools function
+
+> Import Path: `@licoded/koa-puppeteer/lib/utils/index.js`
 
 ### getPage()
 
