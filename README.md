@@ -1,6 +1,10 @@
 # koa-puppeteer
 A tool library based on koa and puppeteer, which can speed up your development.
 
+## Document
+
+Click [here](./docs/usages.md) for detailed documentation
+
 ## Quick Start
 
 ### Installation
