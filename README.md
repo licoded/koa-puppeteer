@@ -1,9 +1,9 @@
 # koa-puppeteer
 A tool library based on koa and puppeteer, which can speed up your development.
 
-# Quick Start
+## Quick Start
 
-## Install
+### Installation
 
 ```bash
 PUPPETEER_DOWNLOAD_HOST=https://storage.googleapis.com.cnpmjs.org npm install --save @licoded/koa-puppeteer
@@ -12,7 +12,7 @@ PUPPETEER_DOWNLOAD_HOST=https://storage.googleapis.com.cnpmjs.org npm install --
 > `PUPPETEER_DOWNLOAD_HOST=https://storage.googleapis.com.cnpmjs.org` prefix is to speed up Chromium download in **China**.  
 > If you are not in China, you may need to remove the prefix
 
-## Code Example
+### Code Example
 
 For some reasons, I use ES Module to write this tool. So you now can only use ES Module Synatx now.
 
