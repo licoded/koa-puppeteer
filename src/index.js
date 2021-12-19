@@ -1,5 +1,5 @@
-import { MyKoa } from '../lib/index.js';
-import routers from './controller/index.js';
+const { MyKoa } = require('../lib');
+const routers = require('./controller');
 
 new MyKoa({
   port: 3000,
