@@ -1,6 +1,6 @@
 {
   "name": "@licoded/koa-puppeteer",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A tool library based on koa and puppeteer, which can speed up your development.",
   "main": "lib/index.js",
   "scripts": {
